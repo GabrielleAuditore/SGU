@@ -1,0 +1,29 @@
+/*LIMPAR FORMATAÇÕES PADRÃO*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: #2d4496;
+  width: 100%;
+  padding: 15px;
+  font-family: open sans, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  box-shadow: 0px 3px 0.5em gray; /*valores: x, y, blur, color*/
+}
+.header a img {
+  display: inline;
+}
+.header_menu {
+  text-align: right;
+}
+.header_menu ul li {
+  list-style: none;
+  display: inline;
+  color: #fff;
+  padding: 15px 15px;
+}
+.header_menu ul li:hover {
+  color: #d5d9ed;
+}
